@@ -27,13 +27,9 @@ app.post('/envoie', function(req, res){
         return
     }
     const message = req.body.message
-
     const hook = new Webhook(url_webhook);
- 
     hook.setUsername(username);
     hook.setAvatar(pfp);
-     
     hook.send(message);
-
     res.send('votre message a bien été envoyé !')
 })
