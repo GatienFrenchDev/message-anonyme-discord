@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/GatienFrenchDev/message-anonyme-discord/issues"
   },
-  "homepage": "https://github.com/GatienFrenchDev/message-anonyme-discord#readme"
+  "homepage": "https://github.com/GatienFrenchDev/message-anonyme-discord#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord-webhook-node": "^1.1.8",
+    "express": "^4.17.1"
+  }
 }

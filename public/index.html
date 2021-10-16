@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Message Discord Anonyme</title>
+
+    <style>
+
+        body{
+            background-color: black;
+        }
+
+        h2{
+            color: #fff;
+            text-align: center;
+            font-size: 40px;
+            font-family: Calibri;
+        }
+
+        div{
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div form input{
+            height: 30px;
+            width: 600px;
+            font-family: Calibri;
+            font-size: 20px;
+        }
+
+        div form button{
+            font-size: 20px;
+            height: 37px;
+            width: 100px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h2 class="text-center">Message Discord Anonyme !</h2>
+    <div>
+        <form action="/envoie" method="post">
+            <input placeholder="Ecris ton message anonyme" name="message" type="text" required>
+            <button type="submit">ENVOIE</button>
+        </form>
+    </div>
+</body>
+</html>
